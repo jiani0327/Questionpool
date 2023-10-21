@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questionbank", "Questionbank\Questionbank.csproj", "{E2598575-C6AD-43B0-BB6B-DA55DA9970BC}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "database", "database\database.sqlproj", "{A0098A4E-D7ED-4D04-B830-FB3139DE93B4}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "QuestionbankDatabase", "database\QuestionbankDatabase.sqlproj", "{A0098A4E-D7ED-4D04-B830-FB3139DE93B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

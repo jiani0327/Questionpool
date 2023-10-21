@@ -1,3 +1,4 @@
+
 using Microsoft.EntityFrameworkCore;
 using Questionbank.Data;
 
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<questionbankDbContext>(option =>
-option.UseSqlServer(builder.Configuration.GetConnectionString("questionbankDbConnectionStrings")));
+option.UseSqlServer(builder.Configuration.GetConnectionString("questionbankdbConnectionStrings")));
 
 var app = builder.Build();
 

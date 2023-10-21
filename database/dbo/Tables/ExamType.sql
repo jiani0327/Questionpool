@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Subjects]
+﻿CREATE TABLE [dbo].[ExamType]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [Name] NVARCHAR(MAX) NULL

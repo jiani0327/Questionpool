@@ -1,6 +1,6 @@
 ﻿{
    "CodeGenerationMode": 2,
-   "ContextClassName": "questionpooldb",
+   "ContextClassName": "Questionpooldb",
    "ContextNamespace": null,
    "DefaultDacpacSchema": null,
    "FilterSchemas": false,
@@ -15,11 +15,15 @@
    "SelectedToBeGenerated": 0,
    "Tables": [
       {
-         "Name": "[dbo].[history]",
+         "Name": "[dbo].[answer]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[historyquestion]",
+         "Name": "[dbo].[AnswerFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Choice]",
          "ObjectType": 0
       },
       {
@@ -27,15 +31,35 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[QuestionBank]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuestionFile]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[questionpaperlist]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[subject]",
+         "Name": "[dbo].[QuestionType]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Users]",
+         "Name": "[dbo].[register]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[subjects]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[uploadstatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[user]",
          "ObjectType": 0
       }
    ],

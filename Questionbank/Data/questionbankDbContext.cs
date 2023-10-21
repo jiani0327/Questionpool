@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Questionbank.Model.Domain;
+using Questionbank.Model;
 
 namespace Questionbank.Data
 {
@@ -10,7 +10,7 @@ namespace Questionbank.Data
         public questionbankDbContext(DbContextOptions options) : base(options)
         {
         }
-        public virtual DbSet<user> Users { get; set; }
-        public DbSet<Questionbank.Model.Domain.subjects>? subject { get; set; }
+
+        public DbSet<subject> Subjects {  get; set; }
     }
 }
